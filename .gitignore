@@ -1,0 +1,32 @@
+# secrets
+.env
+*.env
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# large data and exports (keep these out of git)
+*.tif
+*.tiff
+*.npy
+*.npz
+*.zip
+data/
+exports/
+spotcheck_output/
+
+# editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
